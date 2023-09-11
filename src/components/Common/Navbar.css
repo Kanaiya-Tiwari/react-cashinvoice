@@ -1,0 +1,52 @@
+/* Navbar.css */
+
+/* Navigation bar container */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  /* Container for the logo and navigation links */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  /* Logo text */
+  .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .logo a:hover {
+    color: #ff5733; /* Change the color on hover */
+  }
+  
+  /* Navigation links */
+  .nav-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-links a:hover {
+    color: #ff5733; /* Change the color on hover */
+  }
+  
